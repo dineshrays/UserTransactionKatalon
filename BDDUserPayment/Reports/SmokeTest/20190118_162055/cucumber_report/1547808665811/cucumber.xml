@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="126.064899">
+<testcase classname="To resgister a new user , login and then make payment with otp." name="To register a user" time="45.65768">
+<system-out><![CDATA[Given User is in Register Page..............................................passed
+When User enters the First Name.............................................passed
+And User enters the NameID..................................................passed
+And User enters the Email...................................................passed
+And User enters the UserName................................................passed
+And User enters the Password................................................passed
+And User enters the Confirm Password........................................passed
+Then User clicks on Register button.........................................passed
+And User clicks on click here to login......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To resgister a new user , login and then make payment with otp." name="To login a user" time="25.663457">
+<system-out><![CDATA[Given User is in Login Page.................................................passed
+When User enters username...................................................passed
+And user enters password....................................................passed
+And user clicks on Login button.............................................passed
+Then Validate the username and password.....................................passed
+And user should be logged in................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To resgister a new user , login and then make payment with otp." name="To make a payment" time="54.743762">
+<system-out><![CDATA[Given User is in Login Page.................................................passed
+When User enters username...................................................passed
+And user enters password....................................................passed
+And user clicks on Login button.............................................passed
+And user is redirected to paybill page......................................passed
+Then user enters dayofpayment...............................................passed
+And user enters amount......................................................passed
+And user enters SwiftCode...................................................passed
+And user clicks on make payment.............................................passed
+And user is redirected to otp page..........................................passed
+And user enters the otp.....................................................passed
+And user clicks on submit otp...............................................passed
+And user should see the payment successful page.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

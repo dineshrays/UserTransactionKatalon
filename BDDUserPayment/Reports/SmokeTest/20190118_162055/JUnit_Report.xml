@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTest" time="129" tests="1" failures="0" errors="0">
+   <testsuite name="SmokeTest" tests="1" failures="0" errors="0" time="129" timestamp="2019-01-18 16:21:03" hostname="Promantus Inc - G10PROLT021" id="Test Suites/SmokeTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\SmokeTest\\20190118_162055"/>
+         <property name="logFiles" value="C:\\Users\\Promantus Inc\\Katalon Studio\\BDDUserPayment\\Reports\\SmokeTest\\20190118_162055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Promantus Inc - G10PROLT021"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="9791073b-4671-4848-859b-92a42d61bbfb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Transaction" classname="Test Cases/TC_Transaction" status="PASSED">
+         <system-out><![CDATA[2019-01-18 16:21:04 - [TEST_CASE][PASSED] - Test Cases/TC_Transaction: Test Cases/TC_Transaction
+
+2019-01-18 16:21:05 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Registration-Login-Payment.feature"): Feature file: 'Include/features/Registration-Login-Payment.feature' was passed
+
+2019-01-18 16:21:05 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Registration-Login-Payment.feature' and extract report to folder: 'C:\Users\Promantus Inc\Katalon Studio\BDDUserPayment\Reports\SmokeTest\20190118_162055/cucumber_report/1547808665811'...
+
+2019-01-18 16:21:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To register a user: SCENARIO To register a user
+
+2019-01-18 16:21:07 - [TEST_STEP][PASSED] - User is in Register Page: User is in Register Page
+
+2019-01-18 16:21:08 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-18 16:21:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-18 16:21:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-18 16:21:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60854/Account/Register' successfully
+
+2019-01-18 16:21:36 - [MESSAGE][PASSED] - User is in Register Page
+
+2019-01-18 16:21:37 - [TEST_STEP][PASSED] - User enters the First Name: User enters the First Name
+
+2019-01-18 16:21:37 - [MESSAGE][PASSED] - Text 'Ramanan1' is set on object 'Object Repository/Page_Register - My ASP.NET Applicat/input_FirstName_FirstName'
+
+2019-01-18 16:21:37 - [MESSAGE][PASSED] - User enters the First Name
+
+2019-01-18 16:21:37 - [TEST_STEP][PASSED] - User enters the NameID: User enters the NameID
+
+2019-01-18 16:21:37 - [MESSAGE][PASSED] - Text 'GEB567HDC' is set on object 'Object Repository/Page_Register - My ASP.NET Applicat/input_NameId_NameId'
+
+2019-01-18 16:21:37 - [MESSAGE][PASSED] - User enters the NameID
+
+2019-01-18 16:21:37 - [TEST_STEP][PASSED] - User enters the Email: User enters the Email
+
+2019-01-18 16:21:37 - [MESSAGE][PASSED] - Text 'ramanan1@gmail.com' is set on object 'Object Repository/Page_Register - My ASP.NET Applicat/input_Email_Email'
+
+2019-01-18 16:21:37 - [MESSAGE][PASSED] - User enters the Email
+
+2019-01-18 16:21:37 - [TEST_STEP][PASSED] - User enters the UserName: User enters the UserName
+
+2019-01-18 16:21:37 - [MESSAGE][PASSED] - Text 'Ramanan1' is set on object 'Object Repository/Page_Register - My ASP.NET Applicat/input_Username_Username'
+
+2019-01-18 16:21:37 - [MESSAGE][PASSED] - User enters the UserName
+
+2019-01-18 16:21:37 - [TEST_STEP][PASSED] - User enters the Password: User enters the Password
+
+2019-01-18 16:21:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Register - My ASP.NET Applicat/input_Password_Password'
+
+2019-01-18 16:21:38 - [MESSAGE][PASSED] - User enters the Password
+
+2019-01-18 16:21:38 - [TEST_STEP][PASSED] - User enters the Confirm Password: User enters the Confirm Password
+
+2019-01-18 16:21:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Register - My ASP.NET Applicat/input_ConfirmPassword_ConfirmP'
+
+2019-01-18 16:21:38 - [MESSAGE][PASSED] - User enters the Confirm Password
+
+2019-01-18 16:21:38 - [TEST_STEP][PASSED] - User clicks on Register button: User clicks on Register button
+
+2019-01-18 16:21:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register - My ASP.NET Applicat/input_ConfirmPassword_btn btn-' is clicked on
+
+2019-01-18 16:21:44 - [MESSAGE][PASSED] - User clicks on Register button
+
+2019-01-18 16:21:44 - [TEST_STEP][PASSED] - User clicks on click here to login: User clicks on click here to login
+
+2019-01-18 16:21:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register - My ASP.NET Applicat/a_Click here to Login' is clicked on
+
+2019-01-18 16:21:52 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-18 16:21:52 - [MESSAGE][PASSED] - User clicks on click here to login
+
+2019-01-18 16:21:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To login a user: SCENARIO To login a user
+
+2019-01-18 16:21:52 - [TEST_STEP][PASSED] - User is in Login Page: User is in Login Page
+
+2019-01-18 16:21:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-18 16:22:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-18 16:22:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60854/Account/Login' successfully
+
+2019-01-18 16:22:03 - [MESSAGE][PASSED] - User is in Login Page
+
+2019-01-18 16:22:03 - [TEST_STEP][PASSED] - User enters username: User enters username
+
+2019-01-18 16:22:03 - [MESSAGE][PASSED] - Text 'Ramanan1' is set on object 'Object Repository/Page_Login - My ASP.NET Application/input_Username_Username'
+
+2019-01-18 16:22:03 - [MESSAGE][PASSED] - User enters username
+
+2019-01-18 16:22:03 - [TEST_STEP][PASSED] - user enters password: user enters password
+
+2019-01-18 16:22:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My ASP.NET Application/input_Password_Password'
+
+2019-01-18 16:22:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:22:08 - [MESSAGE][PASSED] - user enters password
+
+2019-01-18 16:22:08 - [TEST_STEP][PASSED] - user clicks on Login button: user clicks on Login button
+
+2019-01-18 16:22:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My ASP.NET Application/input_Password_btn btn-default' is clicked on
+
+2019-01-18 16:22:15 - [MESSAGE][PASSED] - user clicks on Login button
+
+2019-01-18 16:22:15 - [TEST_STEP][PASSED] - Validate the username and password: Validate the username and password
+
+2019-01-18 16:22:15 - [MESSAGE][PASSED] - Validate the username and password
+
+2019-01-18 16:22:15 - [TEST_STEP][PASSED] - user should be logged in: user should be logged in
+
+2019-01-18 16:22:18 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-18 16:22:18 - [MESSAGE][PASSED] - user should be logged in
+
+2019-01-18 16:22:18 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO To make a payment: SCENARIO To make a payment
+
+2019-01-18 16:22:18 - [TEST_STEP][PASSED] - User is in Login Page: User is in Login Page
+
+2019-01-18 16:22:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-18 16:22:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-18 16:22:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:60854/Account/Login' successfully
+
+2019-01-18 16:22:26 - [MESSAGE][PASSED] - User is in Login Page
+
+2019-01-18 16:22:26 - [TEST_STEP][PASSED] - User enters username: User enters username
+
+2019-01-18 16:22:27 - [MESSAGE][PASSED] - Text 'Ramanan1' is set on object 'Object Repository/Page_Login - My ASP.NET Application/input_Username_Username'
+
+2019-01-18 16:22:27 - [MESSAGE][PASSED] - User enters username
+
+2019-01-18 16:22:27 - [TEST_STEP][PASSED] - user enters password: user enters password
+
+2019-01-18 16:22:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login - My ASP.NET Application/input_Password_Password'
+
+2019-01-18 16:22:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:22:32 - [MESSAGE][PASSED] - user enters password
+
+2019-01-18 16:22:32 - [TEST_STEP][PASSED] - user clicks on Login button: user clicks on Login button
+
+2019-01-18 16:22:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My ASP.NET Application/input_Password_btn btn-default' is clicked on
+
+2019-01-18 16:22:38 - [MESSAGE][PASSED] - user clicks on Login button
+
+2019-01-18 16:22:38 - [TEST_STEP][PASSED] - user is redirected to paybill page: user is redirected to paybill page
+
+2019-01-18 16:22:38 - [MESSAGE][PASSED] - user is redirected to paybill page
+
+2019-01-18 16:22:38 - [TEST_STEP][PASSED] - user enters dayofpayment: user enters dayofpayment
+
+2019-01-18 16:22:38 - [MESSAGE][PASSED] - Text '11/01/2019' is set on object 'Object Repository/Page_MakePayment - My ASP.NET Appli/input_DayOfPayment_DayOfPaymen'
+
+2019-01-18 16:22:38 - [MESSAGE][PASSED] - user enters dayofpayment
+
+2019-01-18 16:22:38 - [TEST_STEP][PASSED] - user enters amount: user enters amount
+
+2019-01-18 16:22:38 - [MESSAGE][PASSED] - Text '145' is set on object 'Object Repository/Page_MakePayment - My ASP.NET Appli/input_Amount_Amount'
+
+2019-01-18 16:22:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:22:43 - [MESSAGE][PASSED] - user enters amount
+
+2019-01-18 16:22:43 - [TEST_STEP][PASSED] - user enters SwiftCode: user enters SwiftCode
+
+2019-01-18 16:22:43 - [MESSAGE][PASSED] - Text 'FD124' is set on object 'Object Repository/Page_MakePayment - My ASP.NET Appli/input_SwiftCode_SwiftCode'
+
+2019-01-18 16:22:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:22:48 - [MESSAGE][PASSED] - user enters SwiftCode
+
+2019-01-18 16:22:48 - [TEST_STEP][PASSED] - user clicks on make payment: user clicks on make payment
+
+2019-01-18 16:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MakePayment - My ASP.NET Appli/input_SwiftCode_btn btn-defaul' is clicked on
+
+2019-01-18 16:22:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:22:54 - [MESSAGE][PASSED] - user clicks on make payment
+
+2019-01-18 16:22:54 - [TEST_STEP][PASSED] - user is redirected to otp page: user is redirected to otp page
+
+2019-01-18 16:22:54 - [MESSAGE][PASSED] - user is redirected to otp page
+
+2019-01-18 16:22:54 - [TEST_STEP][PASSED] - user enters the otp: user enters the otp
+
+2019-01-18 16:22:54 - [MESSAGE][PASSED] - Text '32728' is set on object 'Object Repository/Page_EnterOTP - My ASP.NET Applicat/input_OTP_OTP'
+
+2019-01-18 16:22:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:22:59 - [MESSAGE][PASSED] - user enters the otp
+
+2019-01-18 16:22:59 - [TEST_STEP][PASSED] - user clicks on submit otp: user clicks on submit otp
+
+2019-01-18 16:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_EnterOTP - My ASP.NET Applicat/input_OTP_btn btn-default' is clicked on
+
+2019-01-18 16:23:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:23:04 - [MESSAGE][PASSED] - user clicks on submit otp
+
+2019-01-18 16:23:04 - [TEST_STEP][PASSED] - user should see the payment successful page: user should see the payment successful page
+
+2019-01-18 16:23:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-18 16:23:13 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-18 16:23:13 - [MESSAGE][PASSED] - user should see the payment successful page
+
+2019-01-18 16:23:13 - [MESSAGE][PASSED] - Feature file: 'Include/features/Registration-Login-Payment.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-18 16:21:03 - [TEST_SUITE][PASSED] - SmokeTest: Test Cases/TC_Transaction]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

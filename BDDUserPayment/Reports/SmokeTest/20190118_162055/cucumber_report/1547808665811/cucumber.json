@@ -1,0 +1,379 @@
+[
+  {
+    "line": 10,
+    "elements": [
+      {
+        "line": 13,
+        "name": "To register a user",
+        "description": "",
+        "id": "to-resgister-a-new-user---login-and-then-make-payment-with-otp.;to-register-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29809834918,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is in Register Page",
+            "match": {
+              "location": "Registration_Login_Payment.User_is_in_Register_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391845618,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters the First Name",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_the_First_Name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212601677,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters the NameID",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_the_NameID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123633111,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters the Email",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_the_Email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128843724,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters the UserName",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_the_UserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256046859,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters the Password",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_the_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137529966,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters the Confirm Password",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_the_Confirm_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5775217193,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Register button",
+            "match": {
+              "location": "Registration_Login_Payment.User_clicks_on_Register_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8756937760,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on click here to login",
+            "match": {
+              "location": "Registration_Login_Payment.User_clicks_on_click_here_to_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To login a user",
+        "description": "",
+        "id": "to-resgister-a-new-user---login-and-then-make-payment-with-otp.;to-login-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10668053772,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is in Login Page",
+            "match": {
+              "location": "Registration_Login_Payment.User_is_in_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187529570,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters username",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5242594039,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters password",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6181334227,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "Registration_Login_Payment.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1074595,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Validate the username and password",
+            "match": {
+              "location": "Registration_Login_Payment.Validate_the_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3365626042,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user should be logged in",
+            "match": {
+              "location": "Registration_Login_Payment.user_should_be_logged_in()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "To make a payment",
+        "description": "",
+        "id": "to-resgister-a-new-user---login-and-then-make-payment-with-otp.;to-make-a-payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8409620603,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is in Login Page",
+            "match": {
+              "location": "Registration_Login_Payment.User_is_in_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190488291,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters username",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5401681215,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user enters password",
+            "match": {
+              "location": "Registration_Login_Payment.User_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5747013432,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "Registration_Login_Payment.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 814819,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is redirected to paybill page",
+            "match": {
+              "location": "Registration_Login_Payment.user_is_redirected_to_paybill_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94627367,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enters dayofpayment",
+            "match": {
+              "location": "Registration_Login_Payment.user_enters_dayofpayment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5096716143,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enters amount",
+            "match": {
+              "location": "Registration_Login_Payment.user_enters_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5076988311,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enters SwiftCode",
+            "match": {
+              "location": "Registration_Login_Payment.user_enters_SwiftCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5568824451,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user clicks on make payment",
+            "match": {
+              "location": "Registration_Login_Payment.user_clicks_on_make_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1162571,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user is redirected to otp page",
+            "match": {
+              "location": "Registration_Login_Payment.user_is_redirected_to_otp_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5093275629,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user enters the otp",
+            "match": {
+              "location": "Registration_Login_Payment.user_enters_the_otp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5398638671,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user clicks on submit otp",
+            "match": {
+              "location": "Registration_Login_Payment.user_clicks_on_submit_otp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8644098170,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user should see the payment successful page",
+            "match": {
+              "location": "Registration_Login_Payment.user_should_see_the_payment_successful_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To resgister a new user , login and then make payment with otp.",
+    "description": "  //@tag1",
+    "id": "to-resgister-a-new-user---login-and-then-make-payment-with-otp.",
+    "keyword": "Feature",
+    "uri": "C:/Users/Promantus Inc/Katalon Studio/BDDUserPayment/Include/features/Registration-Login-Payment.feature",
+    "tags": []
+  }
+]
